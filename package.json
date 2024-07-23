@@ -2,6 +2,7 @@
   "name": "spenden",
   "version": "1.0.0",
   "description": "",
+  "homepage": "spenden/",
   "private": true,
   "scripts": {
     "start": "react-scripts start",
