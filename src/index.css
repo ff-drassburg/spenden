@@ -10,10 +10,20 @@ img.ffd-logo {
     }
 }
 
-.buildingblocks {
+section {
     margin: 64px 0;
 }
-.buildingblocks h3 {
+
+section.bank-details table td:first-of-type {
+    text-align: right;
+
+}
+section.bank-details table td:last-of-type {
+    padding-left: 5px;
+    font-weight: bold;
+}
+
+section h3 {
     margin-top: 42px;
 }
 ul.grid {
