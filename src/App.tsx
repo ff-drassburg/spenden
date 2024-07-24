@@ -6,7 +6,7 @@ function App() {
     <div className="container">
       <header className="py-3 mb-4 border-bottom" >
         <nav>
-          <img alt="" src={require('./images/logo_of_Drassburg_400.png')} className="ffd-logo" />
+          <img alt="" src={require("./images/logo_of_Drassburg_400.png")} className="ffd-logo" />
         </nav>
       </header>
       
@@ -35,7 +35,7 @@ function App() {
         </ul>
 
         <h3>Bausteine Bronze</h3>
-        <ul className="grid bronze">
+        <ul id="bronze" className="grid bronze">
         { donates["bronze"].map((donate: string) => (
             <li>{donate}</li>
           ))}
