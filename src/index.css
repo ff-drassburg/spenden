@@ -31,6 +31,7 @@ ul.grid li {
     font-size: 1.75rem;
     font-weight: 200;
     text-align: center;
+    border-radius: 5px;
 }
 ul.grid.gold li {
     background-color: #ceb13f;
@@ -41,18 +42,3 @@ ul.grid.silver li {
 ul.grid.bronze li {
     background-color: #c7964c;
 }
-
-/* @keyframes wipe-enter {
-	0% {
-		transform: scale(0, .025);
-	}
-	50% {
-		transform: scale(1, .025);
-	}
-}
-@media (prefers-reduced-motion: no-preference) {
-    ul.grid li {
-      animation-name: wipe-enter;
-      animation-duration: 1s;
-    }
-  } */
