@@ -23,6 +23,12 @@ section.bank-details table td:last-of-type {
     font-weight: bold;
 }
 
+section.qr-codes div.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    grid-gap: 48px;
+}
+
 section h3 {
     margin-top: 42px;
 }

@@ -34,7 +34,7 @@ function App() {
           </tr>
           <tr>
             <td>Einzahlungsbetrag:</td>
-            <td>100€ oder 200€ oder 400€</td>
+            <td>100€ <span style={{ fontWeight: "normal"}}>oder</span> 200€ <span style={{ fontWeight: "normal"}}>oder</span> 400€</td>
           </tr>
         </table>
         <p style={{ paddingTop: "10px" }}>
@@ -42,9 +42,27 @@ function App() {
         </p>
       </section >
 
-      <section>
+      <section className="qr-codes">
         <h2>QR-Codes für Telebanking</h2>
         <p>Sie können direkt aus Ihrer Telebanking-App den QR-Code scannen und so bequemer Ihre Spende überweisen.</p>
+        <div className="grid">
+          <div>
+            <img alt="" src={require("./images/qr-code-100.png")} width="100%"/>
+            Bausteinaktion Bronze 100€
+          </div>
+          <div>
+            <img alt="" src={require("./images/qr-code-200.png")} width="100%"/>
+            Bausteinaktion Silber 200€
+          </div>
+          <div>
+            <img alt="" src={require("./images/qr-code-400.png")} width="100%"/>
+            Bausteinaktion Gold 400€
+          </div>
+          <div>
+            <img alt="" src={require("./images/qr-code.png")} width="100%"/>
+            Bausteinaktion Betrag bitte selber eintragen
+          </div>
+        </div>
       </section>
 
       <section>
