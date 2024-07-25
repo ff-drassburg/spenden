@@ -1,4 +1,4 @@
-import { SubmitHandler, useForm } from "react-hook-form"
+import { Form, useForm } from "react-hook-form"
 
 type Inputs = {
   givenname: string
@@ -12,17 +12,25 @@ function DonateForm() {
 
   const {
     register,
-    handleSubmit,
+    control,
     formState: { errors },
+    reset
   } = useForm<Inputs>()
-
-  const onSubmit: SubmitHandler<Inputs> = (data) => console.log(data)
 
   return (
     <section className="form">
       <h2>Spendenformular</h2>
-      <form
-        onSubmit={handleSubmit(onSubmit)}
+      <Form
+        // action=""
+        encType={"application/json"}
+        onSuccess={() => {
+          alert("Vielen Dank.")
+          reset();
+        }}
+        onError={() => {
+          alert("Ups, da ist etwas schief gegangen. Versuche es später noch mal.");
+        }}
+        control={control}
         autoComplete="off">
 
         <div className="mb-3">
@@ -54,7 +62,7 @@ function DonateForm() {
           </div>
         </div>
         <button type="submit" className="btn btn-primary">Absenden</button>
-      </form>
+      </Form>
     </section>
   );
 }
