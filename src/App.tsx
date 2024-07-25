@@ -17,7 +17,7 @@ function App() {
       <section className="building-block row" style={{ marginTop: "25px" }}>
         <div className="col-lg-7">
           <p>
-            Die Investion in den Zu- und Umbaus unseres Feuerwehrhauses haben unsere Gemeinde vor große Herausforderungen gestellt,
+            Die Investion in den Zu- und Umbaus unseres Feuerwehrhauses hat unsere Gemeinde vor große Herausforderungen gestellt,
             jedoch sind wir uns auch bewusst, dass auch wir als Feuerwehr unseren Beitrag leisten müssen.<br/>
             Deshalb haben wir in rund 500 Arbeitsstunden bei diversen Unterstützungsarbeiten unseren Beitrag dazu geleistet die Kosten zu senken.<br/>
             Neben unseren Veranstaltungen leisten Ihre Spenden einen wichtigen Beitrag zum Erhalt des Dienstbetriebs und zur Kofinanzierung großer Investitionen.

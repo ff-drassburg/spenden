@@ -61,10 +61,16 @@ section h3 {
 ul.grid {
     padding: 0;
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+    grid-template-columns: 1fr;
     grid-gap: 24px;
     list-style-type: none;
 }
+@media (min-width: 576px) {
+    ul.grid  {
+        grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+    }
+}
+
 ul.grid li {
     height: 100px;
     display: flex;
