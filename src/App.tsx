@@ -1,3 +1,5 @@
+import DonateForm from "./DonateForm";
+
 const donates = require("./data/donates");
 
 function App() {
@@ -36,6 +38,8 @@ function App() {
           </ul>
         </div>
       </section>
+
+      <DonateForm/>
 
       <section className="bank-details">
         <h2>Usere Bankdaten</h2>
