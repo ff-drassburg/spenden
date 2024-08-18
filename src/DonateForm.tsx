@@ -21,7 +21,7 @@ function DonateForm() {
     <section className="form">
       <h2>Spendenformular</h2>
       <Form
-        // action=""
+        action="https://getform.io/f/brolgzza"
         encType={"application/json"}
         onSuccess={() => {
           alert("Vielen Dank.")
@@ -33,6 +33,8 @@ function DonateForm() {
         control={control}
         autoComplete="off">
 
+        <input type="hidden" name="_gotcha" style={{ display: "none !important" }}/>
+    
         <div className="mb-3">
           <label htmlFor="givenname" className="form-label">Vorname *</label>
           <input type="text" className={"form-control" + (errors.givenname ? " is-invalid" : "")} id="givenname" placeholder="Max" {...register("givenname", { required: true })} aria-invalid={errors.givenname ? "true" : "false"} />
@@ -58,7 +60,7 @@ function DonateForm() {
             Zustimmungserklärung
           </label>
           <div id="consent-description" className="form-text">
-            Ich stimme einer Veröffentlichung meiner Unterstützung mit Vornamen und Familiennamen in der jeweiligen Stufe des Baustein (Bronze, Silber oder Gold) zu auf Website & Social Media sowie auf einer Tafel beim Feuerwehrhaus und den Druckwerken der Feuerwehr zu.
+            Ich stimme einer Veröffentlichung meiner Unterstützung mit Vornamen und Familiennamen in der jeweiligen Stufe des Baustein (Bronze, Silber oder Gold) im Internet und den Druckwerken der Feuerwehr zu.
           </div>
         </div>
         <button type="submit" className="btn btn-primary">Absenden</button>

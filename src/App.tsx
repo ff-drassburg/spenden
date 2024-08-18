@@ -12,16 +12,15 @@ function App() {
         </nav>
       </header>
 
-      <h2>Bausteinaktion für den Zu- und Umbaus des Feuerwehrhauses</h2>
+      <h2>Bausteinaktion für den Um- und Zubau des Feuerwehrhauses</h2>
 
       <section className="building-block row" style={{ marginTop: "25px" }}>
         <div className="col-lg-7">
           <p>
-            Die Investion in den Zu- und Umbaus unseres Feuerwehrhauses hat unsere Gemeinde vor große Herausforderungen gestellt,
-            jedoch sind wir uns auch bewusst, dass auch wir als Feuerwehr unseren Beitrag leisten müssen.<br/>
-            Deshalb haben wir in rund 500 Arbeitsstunden bei diversen Unterstützungsarbeiten unseren Beitrag dazu geleistet die Kosten zu senken.<br/>
-            Neben unseren Veranstaltungen leisten Ihre Spenden einen wichtigen Beitrag zum Erhalt des Dienstbetriebs und zur Kofinanzierung großer Investitionen.
-            Mit der Bausteinaktion haben wir uns eine Sammelaktion überlegt, bei der Sie besonders für den Zu- und Umbau des Feuerwehrhauses spenden können.
+            Werte Draßburgerinnen und Draßburger
+          </p>
+          <p>
+            Aufgrund der enormen finanziellen Belastungen, die ein Bauprojekt wie der Um- und Zubau des Feuerwehrhauses für die Gemeinde als Erhalter und die Freiwillige Feuerwehr selbst mit sich bringt, erlaubt sich die FF Draßburg, Sie im Rahmen der Bausteinaktion um eine Spende zu ersuchen. Die gesammelten Spenden werden für die noch erforderliche Inneneinrichtung und Ausstattung des Feuerwehrhauses verwendet.
           </p>
           <p>
             Ihre Spenden werden automatisch dem Finanzamt übermittelt.
@@ -32,9 +31,9 @@ function App() {
         </div>
         <div className="col-lg-5">
           <ul className="building-blocks">
-            <li className="bronze">Baustein Bronze: ab 100 € Spende</li>
-            <li className="silver">Baustein Silber: ab 200 € Spende</li>
-            <li className="gold"  >Baustein Gold:   ab 400 € Spende</li>
+            <li className="bronze">Baustein Bronze: ab 50 € Spende</li>
+            <li className="silver">Baustein Silber: ab 100 € Spende</li>
+            <li className="gold"  >Baustein Gold:   ab 200 € Spende</li>
           </ul>
         </div>
       </section>
@@ -60,7 +59,7 @@ function App() {
             </tr>
             <tr>
               <td>Einzahlungsbetrag:</td>
-              <td>100 € <span style={{ fontWeight: "normal" }}>oder</span> 200 € <span style={{ fontWeight: "normal" }}>oder</span> 400 €</td>
+              <td>50 € <span style={{ fontWeight: "normal" }}>oder</span> 100 € <span style={{ fontWeight: "normal" }}>oder</span> 200 €</td>
             </tr>
           </tbody>
         </table>
@@ -74,16 +73,16 @@ function App() {
         <p>Sie können direkt aus Ihrer Telebanking-App den QR-Code scannen und so bequemer Ihre Spende überweisen.</p>
         <div className="grid">
           <div>
+            <img alt="" src={require("./images/qr-code-050.png")} width="100%" />
+            Bausteinaktion Bronze 50 €
+          </div>
+          <div>
             <img alt="" src={require("./images/qr-code-100.png")} width="100%" />
-            Bausteinaktion Bronze 100 €
+            Bausteinaktion Silber 100 €
           </div>
           <div>
             <img alt="" src={require("./images/qr-code-200.png")} width="100%" />
-            Bausteinaktion Silber 200 €
-          </div>
-          <div>
-            <img alt="" src={require("./images/qr-code-400.png")} width="100%" />
-            Bausteinaktion Gold 400 €
+            Bausteinaktion Gold 200 €
           </div>
           <div>
             <img alt="" src={require("./images/qr-code.png")} width="100%" />
