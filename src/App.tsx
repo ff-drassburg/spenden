@@ -91,7 +91,7 @@ function App() {
         </div>
       </section>
 
-      {/* <section>
+      <section>
         <h2>Vielen Dank für alle bereits erhaltenen Spenden</h2>
 
         {donates["gold"] !== undefined &&
@@ -126,7 +126,7 @@ function App() {
             </ul>
           </>
         }
-      </section> */}
+      </section>
     </div >
   );
 }
