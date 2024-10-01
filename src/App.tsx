@@ -92,7 +92,7 @@ function App() {
       </section>
 
       <section>
-        <h2>Vielen Dank für alle bereits erhaltenen Spenden</h2>
+        <h2>Die FF Draßburg bedankt sich für alle bereits erhaltenen Spenden, sowohl der hier Angeführten, als auch jene, welche nicht Namentlich erwähnt werden möchten</h2>
 
         {donates["gold"] !== undefined &&
           <>
