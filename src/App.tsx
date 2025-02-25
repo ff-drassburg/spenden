@@ -15,19 +15,19 @@ function App() {
       <h2>Bausteinaktion für den Um- und Zubau des Feuerwehrhauses</h2>
 
       <section className="building-block row" style={{ marginTop: "25px" }}>
-        <div className="col-lg-7">
+        <div className="col-lg-7" style={{ marginTop: "40px" }}>
           <p>
             Werte Draßburgerinnen und Draßburger
           </p>
           <p>
-            Aufgrund der enormen finanziellen Belastungen, die ein Bauprojekt wie der Um- und Zubau des Feuerwehrhauses für die Gemeinde als Erhalter und die Freiwillige Feuerwehr selbst mit sich bringt, erlaubt sich die FF Draßburg, Sie im Rahmen der Bausteinaktion um eine Spende zu ersuchen. Die gesammelten Spenden werden für die noch erforderliche Inneneinrichtung und Ausstattung des Feuerwehrhauses verwendet.
+            Aufgrund der enormen finanziellen Belastungen, die ein Bauprojekt wie der Um- und Zubau des Feuerwehrhauses für die Gemeinde als Erhalter und die Freiwillige Feuerwehr selbst mit sich bringt, hat die FF Draßburg eine Bausteinaktion durchgeführt. Die gesammelten Spenden wurden für die noch erforderliche Inneneinrichtung und Ausstattung des Feuerwehrhauses verwendet. Die Spenden wurden nach Übermittlung einer Zustimmungserklärung auf dieser Seite veröffentlicht und dem Finazamt gemeldet. Sollte Ihre Spende noch nicht aufscheinen, schreiben Sie uns bitte eine eMail an ff.drassburg@gmail.com unter Angabe ihres Namens, Geburtsdatum und des Spendenbetrages.
           </p>
-          <p>
+          {/* <p>
             Ihre Spenden werden automatisch dem Finanzamt übermittelt.
           </p>
           <p style={{ marginBottom: "0"}}>
             Gerne können Sie auch jeden anderen Betrag spenden, wir sind über jede Unterstützung dankbar.
-          </p>
+          </p> */}
         </div>
         <div className="col-lg-5">
           <ul className="building-blocks">
@@ -38,9 +38,9 @@ function App() {
         </div>
       </section>
 
-      <DonateForm/>
+      {/* <DonateForm/> */}
 
-      <section className="bank-details">
+      {/* <section className="bank-details">
         <h2>Usere Bankdaten</h2>
 
         <table>
@@ -89,10 +89,10 @@ function App() {
             Bausteinaktion Betrag bitte selber eintragen
           </div>
         </div>
-      </section>
+      </section> */}
 
       <section>
-        <h2>Die FF Draßburg bedankt sich für alle bereits erhaltenen Spenden, sowohl der hier Angeführten, als auch jene, welche nicht Namentlich erwähnt werden möchten</h2>
+        <h2>Die FF Draßburg bedankt sich für alle erhaltenen Spenden, sowohl der hier angeführten, als auch jene, welche nicht namentlich erwähnt werden wollten</h2>
 
         {donates["gold"] !== undefined &&
           <>
